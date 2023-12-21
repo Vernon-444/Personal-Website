@@ -1,15 +1,21 @@
 import Image from "next/image";
 import Container from "./container";
 import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/router'
 
 import me from "../../public/img/portraits/me1.png"
-import logo from "../../public/img/logos/BV_Logo_2.png"
 
 const Hero = () => {
   const [textIndex, setTextIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [isCursorVisible, setIsCursorVisible] = useState(true);
   const [isDeleting, setIsDeleting] = useState(false);
+
+  const router = useRouter()
+
+  const handleDownload = () => {
+    router.push('/img/resume-12-21-23.pdf')
+  }
 
   const texts = ['Full-Stack Developer', 'Life Long Learner', 'Problem Solver', 'Team Player', 'Self Motivated', 'Detail Oriented'];
 
@@ -56,12 +62,9 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-              <a
-                href={logo}
-                download
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
-                My Resume
-              </a>
+            <a href="/img/resume-12-21-23.pdf" download className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
+              My Resume
+            </a>
               <a
                 href="https://github.com/Vernon-444/"
                 target="_blank"
