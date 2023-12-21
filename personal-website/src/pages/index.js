@@ -86,6 +86,7 @@ const Home = () => {
 
       <Navbar />
       <Hero />
+      <div id="about" />
       <SectionTitle
         pretitle="Who am I?"
         title=" About Me">
@@ -109,6 +110,7 @@ const Home = () => {
       </Slider>
     </div>
 
+      <div id="experience" />
       <SectionTitle
         pretitle="Experience"
         title="Professional Experience">
@@ -117,11 +119,13 @@ const Home = () => {
       <Experience />
 
       {/* Education Section */}
-      <SectionTitle pretitle="Learning Enviornments" title="Education" />
+      <div id="education" />
+      <SectionTitle pretitle="Learning Enviornments" title="Education"/>
       <Education />
 
       { /* Projects Section */ }
-      <SectionTitle pretitle="What I've Done" title="Projects" />
+      <div id="projects" />
+      <SectionTitle pretitle="What I've Done" title="Projects"/>
       <Projects />
 
       { /* Awards Section */}
@@ -130,6 +134,7 @@ const Home = () => {
 
 
       {/* Contact Section */}
+      <div id="contact" />
       <SectionTitle pretitle="Let's Talk" title="Contact" />
       <Contact />
 
