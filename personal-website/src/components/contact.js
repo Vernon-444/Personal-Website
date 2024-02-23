@@ -55,7 +55,7 @@ const Contact = () => {
 
   return (
     <form className="w-full max-w-lg mx-auto mt-5" onSubmit={handleSubmit}>
-        <div className="flex flex-wrap -mx-3 mb-6">
+        <div className="flex flex-wrap -mx-3 mb-6 px-5">
         <div className="w-full px-3">
             <input type="hidden" name="access_key" value="65941f8c-f968-4106-b21c-e18cd9898510" />
             <label className="block uppercase tracking-wide text-blue-500 text-xs font-bold mb-2" htmlFor="name">

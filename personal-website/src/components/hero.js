@@ -17,7 +17,7 @@ const Hero = () => {
     router.push('/img/resume-12-21-23.pdf')
   }
 
-  const texts = ['Full-Stack Developer', 'Life Long Learner', 'Problem Solver', 'Team Player', 'Self Motivated', 'Detail Oriented'];
+  const texts = ['Web Developer', 'Life Long Learner', 'Problem Solver', 'Team Player', 'Self Motivated', 'Detail Oriented'];
 
   useEffect(() => {
     const typingSpeed = isDeleting ? 75 : 150; // Speed up when deleting

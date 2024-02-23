@@ -90,7 +90,7 @@ const Home = () => {
       <SectionTitle
         pretitle="Who am I?"
         title=" About Me">
-        A Full-Stack Web Developer graduating from Holberton School - Tulsa in 12/2023 with a diploma in Computer Science & Full-Stack Web Development. I have a passion for creating tools to help people and businesses succeed. When I am not coding, I enjoy spending time with my family, playing video games, and playing disc golf.
+        A Full-Stack Web Developer, graduated from Holberton School - Tulsa in 12/2023 with a diploma in Computer Science & Full-Stack Web Development. I have a passion for creating tools to help people and businesses succeed. When I am not coding, I enjoy spending time with my family, playing video games, and playing disc golf.
       </SectionTitle>
       <About data={benefitOne} />
       <About imgPos="right" data={benefitTwo} />
