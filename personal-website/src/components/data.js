@@ -9,9 +9,10 @@ import {
 
   /* Image imports */
   import logo from "../../public/img/logos/BV_Logo_2.png";
-  import logo2 from "../../public/img/logos/mountain_patch.jpg";
+  // import logo2 from "../../public/img/logos/mountain_patch.jpg";
   import horseberton from "../../public/img/logos/horseberton.webp";
   import vscode from "../../public/img/logos/vscode.png";
+  import terminalpng from "../../public/img/logos/terminal.png";
 
   const benefitOne = {
     title: "Big Picture",
@@ -82,4 +83,27 @@ import {
     ],
   };
 
-  export {benefitOne, benefitTwo, benefitThree};
+  const benefitFour = {
+    title: "Passion to Learn",
+    desc: "I am always learning new languages and technologies to stay up to date with the latest trends in the industry. I am always looking for new challenges and new ways to grow as a developer.",
+    image: terminalpng,
+    bullets: [
+      {
+        title: "Learning New Technologies",
+        desc: "Learning new languages and technologies to stay up to date with the latest trends.",
+        icon: <DevicePhoneMobileIcon />,
+      },
+      {
+        title: "Challenges",
+        desc: "Looking for new challenges and new ways to grow as a developer.",
+        icon: <AdjustmentsHorizontalIcon />,
+      },
+      {
+        title: "Growth",
+        desc: "Always looking for new ways to grow as a developer and as a person.",
+        icon: <SunIcon />,
+      },
+    ],
+  };
+
+  export {benefitOne, benefitTwo, benefitThree, benefitFour};

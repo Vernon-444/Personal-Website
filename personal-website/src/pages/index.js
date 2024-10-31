@@ -40,7 +40,7 @@ import windows from "../../public/img/lang/windows.png";
 // const images = [ bash, bootstrap, c, cpp, css, flask, figma, git, github, html, js, mongo, next, node, notion, python, react, redis, redux, slack, sql, tailwind, ts, ubuntu, vscode, webpack, windows ];
 const images = [ html, css, js, react, redux, ts, node, mongo, tailwind, next, python, flask, redis, sql, webpack, bootstrap, c, cpp, bash, figma, git, github, notion, slack, vscode, ubuntu, windows ];
 
-import { benefitOne, benefitTwo, benefitThree } from "../components/data";
+import { benefitOne, benefitTwo, benefitThree, benefitFour } from "../components/data";
 import About from "../components/about";
 import Footer from "../components/footer";
 import Experience from "../components/experience";
@@ -90,11 +90,14 @@ const Home = () => {
       <SectionTitle
         pretitle="Who am I?"
         title=" About Me">
-        A Full-Stack Web Developer, graduated from Holberton School - Tulsa in 12/2023 with a diploma in Computer Science & Full-Stack Web Development. I have a passion for creating tools to help people and businesses succeed. When I am not coding, I enjoy spending time with my family, playing video games, and playing disc golf.
+        {/* A Full-Stack Web Developer, graduated from Holberton School - Tulsa in 12/2023 with a diploma in Computer Science & Full-Stack Web Development. I have a passion for creating tools to help people and businesses succeed. When I am not coding, I enjoy spending time with my family and friends, playing music, and playing disc golf. */}
+        I am a Full-Stack Web Developer, graduated from Holberton School - Tulsa in 12 / 2023 with a diploma in Computer Science & Full-Stack Web Development. I began my educational journey seeking to be an Aerospace Engineer, but I discovered my passion for coding and software development, and creating tools to help people and businesses succeed. I am a self-motivated, detail-oriented, and hard-working individual who is always looking to learn and grow. <br /> <br />
+        Whem I'm not coding, I value spending time with my family and friends, playing music, and playing disc golf. I believe that balancing time away from the keybaord is just as important for growth as sharpening technical skills, keeping both creativity and focus strong.
       </SectionTitle>
       <About data={benefitOne} />
       <About imgPos="right" data={benefitTwo} />
       <About data={benefitThree} />
+      <About imgPos="right" data={benefitFour} />
       <SectionTitle
         pretitle="Fully-Stacked"
         title="Languages & Softwares">

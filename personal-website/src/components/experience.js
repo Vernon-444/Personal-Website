@@ -8,7 +8,7 @@ const Experience = () => {
         <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
           <h1 className="text-4xl font-bold leading-normal">Student Tutor</h1>
           <div className="flex justify-between">
-            <p>Holberton School - Tulsa</p>
+            <p>Holberton School</p>
             <p>09/2023 - 02/2023</p>
           </div>
           <br />
