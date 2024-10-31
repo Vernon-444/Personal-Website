@@ -62,7 +62,7 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-            <a href="/img/resume-12-21-23.pdf" download className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
+            <a href="/img/Brayden_Vernon_Resume.pdf" download className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
               My Resume
             </a>
               <a
